@@ -134,27 +134,26 @@ section{
     align-items: center;
 }
 
-.tidbits {
+.projects {
     position: relative;
     padding: 40px 14%;
     color: var(--text-color);
-    margin-top: 40px;
     border-radius: 8px;
 }
 
-.tidbits h2 {
+.projects h2 {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 20px;
     color: var(--main-color);
 }
 
-.tidbits ul {
+.projects ul {
     list-style-type: none; 
     padding-left: 0; /* Adjust spacing */
 }
 
-.tidbits ul li::before {
+.projects ul li::before {
     content: '●'; 
     color: var(--main-color); 
     font-size: 1.2rem;
@@ -162,7 +161,7 @@ section{
     display: inline-block;
     vertical-align: middle;
 }
-.tidbits ul li {
+.projects ul li {
     margin-bottom: 10px;
 }
 
