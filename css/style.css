@@ -99,8 +99,8 @@
     }
 
     .hero-img img{
-        width: 100%;
-        height: auto;
+        width: 60%;
+        height: 60%;
     }
 
     .hero-text h1{
@@ -147,7 +147,7 @@
         transform: scale(1.1);
     }
 
-    .price{
+    .major{
         display: flex;
         align-items: center;
         font-size: 28px;
@@ -155,7 +155,7 @@
         color: var(--text-color);
     }
 
-    .price span{
+    .major span{
         font-size: 17px;
         font-weight: 400;
         color: var(--main-color);
@@ -212,7 +212,7 @@
         :root{
             --big-font: 4.6rem;
         }
-        .price{
+        .major{
             font-size: 20px;
         }
         .btn{
