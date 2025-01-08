@@ -6,10 +6,6 @@ menu.onclick = () => {
     navlist.classList.toggle('open');
 }
 
-document.getElementById('scroll-down').addEventListener('click', function(e) {
-    e.preventDefault(); // Prevent default anchor behavior
-    document.querySelector('#tidbits').scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-    });
-});
+window.onload = () => {
+    window.scrollTo(0, document.body.scrollHeight);
+}

@@ -51,12 +51,22 @@
                 <li>Aurora has pioneered the development of cannabis-based beverages, one of the most innovative trends in the industry.</li>
             </ul>
         </section>
+        <div class="scroll" data-aos="zoom-out-down" data-aos-duration="1400" data-aos-delay="550">
+            <a href="#tidbits">
+                <i class="ri-scroll-to-bottom-line"></i>
+                Scroll Down
+            </a>
+        </div>
         <!-- js link -->
         <script src="js/script.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
-            AOS.init({
-                offset: 1,
+            // Initialize AOS after the page content is loaded
+            document.addEventListener('DOMContentLoaded', function() {
+                AOS.init({
+                    offset: 1,
+                    once: true // Ensure the animation happens only once
+                });
             });
         </script>
     </body>

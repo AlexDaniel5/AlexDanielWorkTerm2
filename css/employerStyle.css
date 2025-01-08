@@ -96,11 +96,12 @@ section{
 .hero {
     position: relative;
     width: 100%;
-    height: 100vh;
+    padding: 80px 14%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
+    box-sizing: border-box;
 }
 
 .hero-img img{
@@ -127,7 +128,6 @@ section{
     font-weight: 400;
     line-height: 32px;
     color: var(--text-color);
-    margin-bottom: 40px;
 }
 
 .main-hero{
@@ -136,11 +136,11 @@ section{
 }
 
 .tidbits {
+    position: relative;
     padding: 40px 14%;
     color: var(--text-color);
     margin-top: 40px;
     border-radius: 8px;
-    /* No background-color here */
 }
 
 .tidbits h2 {
@@ -151,12 +151,18 @@ section{
 }
 
 .tidbits ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    font-size: 1.1rem;
-    line-height: 1.6;
+    list-style-type: none; 
+    padding-left: 0; /* Adjust spacing */
 }
 
+.tidbits ul li::before {
+    content: '●'; 
+    color: var(--main-color); 
+    font-size: 1.2rem;
+    margin-right: 10px; 
+    display: inline-block;
+    vertical-align: middle;
+}
 .tidbits ul li {
     margin-bottom: 10px;
 }
