@@ -162,26 +162,6 @@
         margin-left: 10px;
     }
 
-    .icons {
-        position: absolute;
-        top: 50%;
-        padding: 0 7%;
-        transform: translate(-50%);
-    }
-
-    .icons i{
-        display: block;
-        margin: 35px 0;
-        color: var(--text-color);
-        font-size: 23px;
-        transition: all .6s;
-    }
-
-    .icons:hover{
-        transform: translate(-5px);
-        color: var(--main-color);
-    }
-
     .scroll{
         position: absolute;
         top: 92%;
