@@ -7,7 +7,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-html {
+html{
     scroll-behavior: smooth;
 }
 
@@ -20,7 +20,7 @@ html {
     --p-font: 1rem;
 }
 
-body {
+body{
     background: url(../images/bg.png);
     background-size: cover;
     background-position: center;
@@ -29,7 +29,7 @@ body {
     padding: 0;
 }
 
-header {
+header{
     position: relative;
     width: 100%;
     top: 0;
@@ -93,7 +93,7 @@ section{
     padding: 0 14%;
 }
 
-.hero {
+.hero{
     position: relative;
     width: 100%;
     display: grid;
@@ -103,8 +103,8 @@ section{
     box-sizing: border-box;
 }
 
-section.hero h2 {
-    color: var(--main-color) !important;
+.hero h2{
+    color: var(--main-color);
 }
 
 .hero-left h1{
@@ -128,48 +128,17 @@ section.hero h2 {
     color: var(--text-color);
 }
 
-.hero-right h2 {
+.hero-right h2{
     margin-top: 20px;
 }
 
-.hero-right p {
+.hero-right p{
     margin-bottom: 20px;
 }
 
 .main-hero{
     display: flex;
     align-items: center;
-}
-
-.projects {
-    position: relative;
-    padding: 40px 14%;
-    color: var(--text-color);
-    border-radius: 8px;
-}
-
-.projects h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: var(--main-color);
-}
-
-.projects ul {
-    list-style-type: none; 
-    padding-left: 0; /* Adjust spacing */
-}
-
-.projects ul li::before {
-    content: '●'; 
-    color: var(--main-color); 
-    font-size: 1.2rem;
-    margin-right: 10px; 
-    display: inline-block;
-    vertical-align: middle;
-}
-.projects ul li {
-    margin-bottom: 10px;
 }
 
 .btn{
@@ -266,7 +235,7 @@ section.hero h2 {
     }
 }
 
-@media(max-width: 570px) {
+@media(max-width: 570px){
     .hero{
         height: 100vh;
     }

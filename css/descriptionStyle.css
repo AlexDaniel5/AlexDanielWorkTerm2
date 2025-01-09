@@ -7,7 +7,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-html {
+html{
     scroll-behavior: smooth;
 }
 
@@ -20,7 +20,7 @@ html {
     --p-font: 1rem;
 }
 
-body {
+body{
     background: url(../images/bg.png);
     background-size: cover;
     background-position: center;
@@ -29,7 +29,7 @@ body {
     padding: 0;
 }
 
-header {
+header{
     position: relative;
     width: 100%;
     top: 0;
@@ -93,7 +93,7 @@ section{
     padding: 0 14%;
 }
 
-.hero {
+.hero{
     position: relative;
     width: 100%;
     display: grid;
@@ -134,34 +134,37 @@ section{
     align-items: center;
 }
 
-.projects {
+.projects{
     position: relative;
     padding: 40px 14%;
     color: var(--text-color);
     border-radius: 8px;
 }
 
-.projects h2 {
+.projects h2{
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 20px;
     color: var(--main-color);
 }
 
-.projects ul {
+.projects ul{
     list-style-type: none; 
-    padding-left: 0; /* Adjust spacing */
+    padding-left: 0;
 }
 
-.projects ul li::before {
+.projects ul li::before{
     content: '●'; 
     color: var(--main-color); 
     font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 32px;
     margin-right: 10px; 
     display: inline-block;
     vertical-align: middle;
 }
-.projects ul li {
+
+.projects ul li{
     margin-bottom: 10px;
 }
 
@@ -283,7 +286,7 @@ section{
     }
 }
 
-@media(max-width: 570px) {
+@media(max-width: 570px){
     .hero{
         height: 100vh;
     }
