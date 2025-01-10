@@ -233,6 +233,6 @@ section{
 
 @media(max-width: 600px){
     .hero{
-        padding-top: 50px;
+        padding-top: 100px;
     }
 }
