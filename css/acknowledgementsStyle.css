@@ -179,42 +179,13 @@ section{
     }
 }
 
-@media(max-width: 950px){
-    #menu-icon{
-        display: block;
-    }
-    .navlist{
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        padding: 100px 50px;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        backdrop-filter: blur(32px);
-        transition: all .6s ease-in-out;
-    }
-    .navlist a{
-        display: block;
-        padding: 0;
-        margin: 0px 0px 25px 0px;
-        font-size: 1.7rem;
-    }
-    .navlist.open{
-        left: 0;
-    }
-}
-
-@media(max-width: 920px){
+@media(max-width: 925px){
     .hero{
         grid-template-columns: 1fr;
         height: auto;
     }
     .hero-text{
-        padding-top: 130px;
+        padding-top: 80px;
     }
     .hero-img{
         height: 500px;
@@ -226,32 +197,23 @@ section{
         height: 100%;
         object-fit: contain;
     }
-}
-
-@media(max-width: 570px){
-    .hero{
-        height: 100vh;
+    .navlist{
+        position: absolute;
+        top: 0;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* Second line for header */
+        text-align: center;
+        align-items: center;
+        line-height: 2;
     }
-    .hero-img{
-        height: 400px;
-        width: 400px;
-        margin: 0 auto;
+    .navlist a {
+        flex: 1 1 auto; /* Make items grow/shrink as needed */
+        text-align: center;
     }
-    :root{
-        --big-font: 4rem;
-    }
-}
-
-@media(max-width: 440px){
-    :root{
-        --big-font: 3.4rem;
-    }
-    .hero-text h5{
-        font-size: 15px;
-    }
-    .hero-img{
-        height: 360px;
-        width: 360px;
-        margin: 0 auto;
+    .logo {
+        display: none;
     }
 }
