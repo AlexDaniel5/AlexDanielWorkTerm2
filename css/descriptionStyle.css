@@ -284,6 +284,9 @@ section{
 
 @media(max-width: 600px){
     .hero{
-        padding-top: 100px;
+        padding-top: 50px;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
     }
 }
