@@ -209,11 +209,17 @@ section{
         align-items: center;
         line-height: 2;
     }
-    .navlist a {
+    .navlist a{
         flex: 1 1 auto; /* Make items grow/shrink as needed */
         text-align: center;
     }
-    .logo {
+    .logo{
         display: none;
+    }
+}
+
+@media(max-width: 600px){
+    .hero{
+        padding-top: 50px;
     }
 }
